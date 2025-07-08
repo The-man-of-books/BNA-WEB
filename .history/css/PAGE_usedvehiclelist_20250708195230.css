@@ -1,0 +1,1378 @@
+.USED_BACKGROUND{
+max-width:1920px;
+margin:0 auto 0 auto;
+min-height:1200px;
+}
+
+.USED_BACKGROUND *{
+    box-sizing: border-box;
+}
+
+/*---*/
+
+.COMPARE_BUTTON {
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    box-sizing: content-box;
+    padding: 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    border-radius:21px;
+}
+
+
+    .COMPARE_BUTTON:hover {
+        background-color: #1f5884;
+        color: #fff;
+        border: 1px solid #1f5884;
+    }
+
+@media(max-width:340px) {
+    .COMPARE_BUTTON {
+        width: 96%;
+        margin: 0 2% 40px 2%;
+    }
+}
+
+
+/*---*/
+
+.SEARCH_BOX {
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+}
+
+.VEHICLE_BOX {
+    width: 74%;
+    float: right;
+}
+
+.VEHICLE_BOX_EMPTY {
+    display: none;
+    width: 74%;
+    float: right;
+    font-size: 20px;
+    color: #fff;
+}
+
+.CLEAR_BOX {
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.NO_DEALER_VEHICLES {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.VEHICLE_CARD_CLASS {
+    display: none;
+    position: relative;
+    width: 32%;
+    min-height: 340px;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    background-color:#181818;
+    border-radius:21px;
+    overflow:hidden;
+}
+
+
+
+
+
+.IMG_CLASS {
+/*    padding: 20px 20px;*/
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.VEHICLE_CARD_CLEAR_CLASS {
+    clear: both;
+}
+
+
+.UVC_A {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+}
+
+/*---*/
+
+.UVC_B_1 {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.UVC_B_2 {
+    display: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.UVC_B_3 {
+    display: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.UVC_B_4 {
+    display: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width:1400px){
+
+/*    .UVC_B_1 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_2 {
+        display: block;
+        font-size: 13px;
+    }
+
+    .UVC_B_3 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_4 {
+        display: none;
+        font-size: 13px;
+    }*/
+
+}
+
+@media(max-width:1200px) {
+
+/*    .UVC_B_1 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_2 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_3 {
+        display: block;
+        font-size: 13px;
+    }
+
+    .UVC_B_4 {
+        display: none;
+        font-size: 13px;
+    }*/
+}
+
+
+@media(max-width:800px) {
+
+/*    .UVC_B_1 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_2 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_3 {
+        display: none;
+        font-size: 13px;
+    }
+
+    .UVC_B_4 {
+        display: block;
+        font-size: 13px;
+    }*/
+}
+
+
+/*---*/
+
+
+.UVC_C {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.UVC_D {
+    margin-bottom:3px;
+    font-size:13px;
+}
+
+.UVC_E {
+    padding: 0 2%;
+    font-size: 13px;
+}
+
+.UVC_F {
+    min-height: 36px;
+    font-size: 13px;
+}
+
+.UVC_LINK {
+    cursor: pointer;
+    height:330px;
+    overflow:hidden;
+}
+.UVC_LINK_1 {
+  padding: 0px 20px;
+  cursor: pointer;
+  color:#fff;
+  transition:0.4s;
+}
+.VEHICLE_CARD_CLASS:hover .UVC_LINK_1 {
+    color:#1f5884;
+}
+
+
+.UVC_LINK_2 {
+    padding: 0 20px 20px 20px;
+    cursor: pointer;
+}
+
+
+.UVC_BTN {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    transition:0.4s;
+    border-radius:21px;
+}
+
+/*    .UVC_BTN:hover {
+        background-color: #1f5884;
+        color: #fff;
+        border: 1px solid #1f5884;
+    }*/
+
+.VEHICLE_CARD_CLASS:hover .UVC_BTN {
+    background-color: #1f5884;
+    color: #fff;
+    border: 1px solid #1f5884;
+}
+
+
+
+
+
+.UVX_LINK {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1f5884;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    border: 1px solid #1f5884;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+    .UVX_LINK:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+
+
+
+.SEARCH_DRPS {
+    width: 100%;
+    height: 0px;
+    background-color: #eee;
+    border-bottom: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.RETURN_NUMBER {
+    /*display: block;*/
+    display: none;
+    text-align: center;
+    min-height: 20px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.SEARCH_BTNS {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1f5884;
+    color: #fff;
+    padding: 0 2% 0 2%;
+    cursor: pointer;
+    border: 1px solid #1f5884;
+}
+
+    .SEARCH_BTNS:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+
+.ORDER_BTN {
+    float: left;
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #1f5884;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #1f5884;
+    margin-left:1%;
+    border-radius:21px;
+}
+
+    .ORDER_BTN:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+
+
+
+
+.PAGE_SELECTOR {
+    float: left;
+    min-height: 40px;
+    margin-right: 2%;
+}
+
+.PAGE_SHOW {
+    display: block;
+}
+
+.PAGE_HIDE {
+    display: none;
+}
+
+.PAGE_SELECT_BTN {
+    width: 40px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius:21px;
+}
+
+    .PAGE_SELECT_BTN:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+
+/*SEARCH BOX ONLY*/
+
+
+.SEARCH_OPTION_BTN {
+    width: 100%;
+    height: 40px;
+    padding: 0 2% 0 2%;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.SEARCH_OPTION {
+    width: 100%;
+    height: 40px;
+    padding: 0 2% 0 2%;
+    line-height: 40px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+    .SEARCH_OPTION:hover {
+        background-color: #888;
+        color: #fff;
+    }
+
+
+.SEARCH_OPTION_A {
+    width: 100%;
+    height: 40px;
+    padding: 0 2% 0 2%;
+    line-height: 40px;
+    background-color: #1f5884;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .SEARCH_OPTION_A:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+
+.COMPARE_BTN {
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1f5884;
+}
+
+.PRC_FROM_BOX {
+    width: 49%;
+    min-height: 40px;
+    float: left;
+}
+
+    .PRC_FROM_BOX select {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border: none;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background-color: #eeeeee;
+    }
+
+.PRC_TO_BOX {
+    width: 49%;
+    min-height: 40px;
+    float: right;
+}
+
+    .PRC_TO_BOX select {
+        display: block;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border: none;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background-color: #eeeeee;
+    }
+
+.PRC_CLEAR_BOX {
+    clear: both;
+}
+
+.SELECT_MAIN_BOX select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #eeeeee;
+}
+
+
+@media(max-width:1300px) {
+
+    .VEHICLE_CARD_CLASS {
+        width: 49%;
+    }
+}
+
+@media(max-width:1100px) {
+
+    .SEARCH_BOX {
+        width: 96%;
+        margin: 0 2% 40px 2%;
+        float: none;
+    }
+
+    .VEHICLE_BOX {
+        width: 96%;
+        margin: 0 2% 40px 2%;
+        float: none;
+    }
+
+    .VEHICLE_CARD_CLASS {
+        width: 49%;
+    }
+}
+
+@media(max-width:800px) {
+
+
+    .SEARCH_BOX {
+        width: 320px;
+        margin: 0 auto 40px auto;
+    }
+
+    .VEHICLE_BOX {
+        width: 320px;
+        margin: 0 auto 40px auto;
+    }
+
+    .VEHICLE_CARD_CLASS {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:370px) {
+
+    .SEARCH_BOX {
+        width: 96%;
+        margin: 0 2% 40px 2%;
+    }
+
+    .VEHICLE_BOX {
+        width: 96%;
+        margin: 0 2% 40px 2%;
+    }
+
+    .VEHICLE_CARD_CLASS {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+/*---*/
+
+
+.SelectForCompare {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1f5884;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    border: 1px solid #1f5884;
+    font-size: 14px;
+    text-decoration: none !important;
+    border-radius:21px;
+    transition:0.5s;
+}
+    .SelectForCompare:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+/*---*/
+
+.SelectForCompare1 {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-size: 14px;
+    text-decoration: none !important;
+    border-radius:21px;
+
+}
+    .SelectForCompare1:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+
+/*---*/
+
+
+.SWITCH_VIEW {
+    width: 200px;
+    height: 32px;
+    margin: 0 auto 40px auto;
+}
+
+.SWITCH_VIEW_IMG_1 {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    cursor:pointer;
+}
+
+.SWITCH_VIEW_IMG_2 {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: right;
+    cursor: pointer;
+}
+.SWITCH_VIEW_IMG_2:hover {
+    opacity: 0.5;
+}
+
+.SWITCH_VIEW_IMG_CLEAR {
+    clear: both;
+}
+
+
+/*---*/
+
+
+.COMP_LIMIT_MESSAGE {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999999;
+}
+
+.COMP_LIMIT_STATEMENT {
+    position: relative;
+    text-align: center;
+    position: fixed;
+    left: -150px;
+    margin-left: 50%;
+    top: 50%;
+    margin-top: -150px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 9999999;
+    border: 1px solid #1f5884;
+}
+
+.DELETE_BTN {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 40px;
+    top: 0;
+    right: 0;
+    background-color: #1f5884;
+    cursor: pointer;
+
+}
+
+@media(max-width:340px) {
+    .COMP_LIMIT_STATEMENT {
+        position: relative;
+        text-align: center;
+        position: fixed;
+        left: -48%;
+        margin-left: 50%;
+        top: 50%;
+        margin-top: -150px;
+        width: 96%;
+        height: 300px;
+        background-color: #fff;
+        z-index: 9999999;
+    }
+}
+
+
+
+
+
+/*---*/
+
+
+.SEARCH_HOLDER {
+    width: 300px;
+}
+
+.OVERBTNS {
+
+    width: 100%;
+    max-height: 40px;
+    overflow: hidden;
+    border: 1px solid #242424;
+    border-bottom: none;
+    margin-bottom:10px;
+    border-radius:21px;
+
+}
+
+.OVERBTNS_A {
+    width: 100%;
+    max-height: 4000px;
+    overflow: hidden;
+    border: 1px solid #242424;
+    border-bottom: none;
+    border-radius: 21px;
+    margin-bottom: 10px;
+}
+
+.OVERBTNS_EXTRA{
+    border-bottom:1px solid #dcdcdc;
+    line-height:36px !important;
+}
+
+.SEARCH_CLICK {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #444343;
+    color:#fff;
+    cursor: pointer;
+/*    background: linear-gradient(to bottom, #f7f7f7, #dfdfdf);*/
+}
+
+    .SEARCH_CLICK:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+.SEARCH_ACTUAL {
+    width: 100%;
+    height: 38px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+
+}
+
+    .SEARCH_ACTUAL:hover {
+        background-color: #1f5884;
+        color: #fff;
+     /*   border: 1px solid #1f5884;*/
+    }
+
+
+/*---*/
+
+
+.SELECT_ACTUAL {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #f8f8f8;
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+    .SELECT_ACTUAL:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+.SELECT_ACTUAL_B {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #1f5884;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+    .SELECT_ACTUAL_B:hover {
+        background-color: #000;
+    }
+
+/*---*/
+
+.SELECT_ACTUAL_PRICE_L {
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: left;
+    padding: 0 10px 0 10px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+
+}
+
+    .SELECT_ACTUAL_PRICE_L:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+.SELECT_ACTUAL_PRICE_L_B {
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: left;
+    padding: 0 10px 0 10px;
+    background-color: #1f5884;
+    cursor: pointer;
+    color: #fff;
+}
+
+.SELECT_ACTUAL_PRICE_L_B:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*---*/
+
+.SELECT_ACTUAL_PRICE_R {
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: right;
+    padding: 0 10px 0 10px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+    .SELECT_ACTUAL_PRICE_R:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+.SELECT_ACTUAL_PRICE_R_B {
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: right;
+    padding: 0 10px 0 10px;
+    background-color: #1f5884;
+    cursor: pointer;
+    color: #fff;
+}
+
+    .SELECT_ACTUAL_PRICE_R_B:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+
+
+/*---*/
+
+
+.CARD_CLASS_NULL{
+    display:none;
+}
+
+
+/*---*/
+
+
+/*---*/
+
+.VEHICLE_BOX_2 {
+    width: 74%;
+    float: right;
+    min-height: 300px;
+}
+
+.VEHICLE_CARD_CLASS_A {
+    width: 98%;
+    min-height: 220px;
+    margin-bottom: 40px;
+    border: 1px solid #181818;
+    background-color: #181818;
+    border-radius:21px;
+    /*    background: linear-gradient(to bottom, #fdfdfd, #ebebeb);*/
+}
+
+.CR_PADDING {
+    padding: 8px;
+}
+
+.CR_IMG_FL {
+    float: left;
+    display: block;
+    width: 30%;
+    height: auto;
+    cursor:pointer;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.CR_IMG {
+    display: block;
+    width: 280px;
+    height: auto;
+    border-radius:20px;
+
+}
+
+/*---*/
+
+.CR_INF_FR {
+    float: right;
+    display: block;
+    width: 64%;
+    height: auto;
+}
+
+.CR_INF_CL {
+    clear: both;
+}
+
+.CR_MM {
+    min-height: 20px;
+}
+
+.CR_COLOR {
+    min-height: 20px;
+}
+
+.CR_INTRO_CON_FL {
+    float: left;
+}
+
+.CR_INTRO_CON_FR {
+    min-height: 40px;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.CR_INTRO_CON_CL {
+    clear: both;
+}
+
+.CR_TABLE {
+    width: 100%;
+    background-color: #444343;
+    border: 1px solid #444343;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+    .CR_TABLE td {
+        height: 30px;
+        width: 25%;
+        text-align: left;
+        padding: 0 4px 0 4px;
+    }
+
+    .CR_TABLE b{
+        font-weight:normal;
+    }
+
+
+.CR_BUTTON {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1f5884;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius:21px;
+}
+
+    .CR_BUTTON:hover {
+        background-color: #fff;
+        color: #1f5884;
+        border: 1px solid #1f5884;
+    }
+
+.CR_FAKE_TAB {
+    display: none;
+    width: 100%;
+    background-color: #444343;
+    border: 1px solid #444343;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #fff;
+}
+
+    .CR_FAKE_TAB b {
+        display: block;
+        min-height: 20px;
+    }
+
+    .CR_FAKE_TAB abbr {
+        display: block;
+        min-height: 20px;
+        margin-bottom: 10px;
+        word-break: break-word;
+    }
+
+/*---*/
+
+@media(max-width:1150px) {
+
+    .CR_IMG {
+        display: block;
+        width: 240px;
+        height: auto;
+    }
+}
+
+@media(max-width:1100px) {
+
+    .VEHICLE_BOX_2 {
+        float: none;
+        width: 100%;
+        padding: 0 2%;
+        margin: 0;
+    }
+
+    .VEHICLE_CARD_CLASS_A {
+        width: 100%;
+    }
+}
+
+@media(max-width:800px) {
+
+    .CR_TABLE {
+        display: none;
+    }
+
+    .CR_FAKE_TAB {
+        display: block;
+    }
+
+    .CR_IMG_FL {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .CR_INF_FR {
+        float: none;
+        width: 100%;
+    }
+
+    .CR_IMG {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .CR_INTRO_CON_FL {
+        float: none;
+    }
+
+    .CR_INTRO_CON_FR {
+        float: none;
+    }
+}
+.UVC_LINK_1{
+    /*padding: 20px;*/
+    cursor: pointer;
+}
+.UVC_BTN:hover .UVC_LINK_1 {
+    /*    opacity: 0.7;*/
+    color: #337ab7 !important;
+}
+
+.UVC_LINK_1:hover {
+    /*    opacity: 0.7;*/
+/*    color: #;*/
+}
+/*---*/
+
+
+
+.CR_PRICE{
+        color: #fff;
+}
+
+/*---*/
+
+.USED_SEARCH_OUTER{
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+/*---*/
+
+.CASE_DROP_A {
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+@media(max-width:1100px){
+
+.CASE_DROP_A {
+    max-height: 6000px;
+    overflow-y:auto;
+}
+
+}
+
+
+.SEARCH_BOX_SHADOW {
+    width: 23%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+.SEARCH_BOX_2 {
+    display: block;
+    position: fixed;
+    width: 450px;
+    margin-left: 50%;
+    left: -930px;
+    top: 60px;
+}
+
+
+@media(max-width: 1900px){
+    .SEARCH_BOX_2 {
+        width:24%;
+        margin-left:0;
+        left:1%;
+    }
+}
+
+
+
+
+
+.TNC_link {
+    font-size:12px;
+    font-weight:normal !important;
+    color:#000;
+    text-decoration:none;
+    cursor:pointer;
+    padding-left:10px;
+}
+.TNC_link:hover {
+        color: #f11a1d;
+    text-decoration: none;
+}
+
+/*---*/
+
+.VideoIndicator {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.VideoIndicator img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+
+/*---*/
+
+.WAITLOADER_0 {
+    display: block;
+    width: 250px;
+    height: 270px;
+    position: relative;
+    margin: 0 auto 100px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.WAITLOADER_1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    animation-name: spinx;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinx {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.WAITLOADER_2 {
+    display: none;
+}
+
+@media(max-width:300px) {
+    .WAITLOADER_0 {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+/*---*/
+
+
+
+.VIEWSWITCH {
+    width: 200px;
+    height: 36px;
+    margin: 0 auto 40px auto;
+}
+
+.LAD {
+    width: 38px;
+    height: 38px;
+    float: left;
+    cursor: pointer;
+    transition: 0.4s;
+}
+    .LAD:hover i, .LAD:hover b {
+        background-color: #1f5884;
+    }
+
+    .LAD i {
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin: 0 1px 0 1px;
+        border-radius: 4px;
+    }
+
+    .LAD b {
+        display: block;
+        width: 18px;
+        height: 8px;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin: 0 1px 0 1px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+
+    .LAD p {
+        display: block;
+        width: 100%;
+        height: 2px;
+        clear: both;
+        padding: 0;
+        margin: 0;
+        transition: 0.4s;
+
+    }
+
+/*---*/
+
+.MUL {
+    width: 38px;
+    height: 38px;
+    float: right;
+    cursor: pointer;
+    transition:0.4s;
+}
+    .MUL:hover i, .MUL:hover b {
+        background-color: #1f5884;
+    }
+
+    .MUL i {
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        float: left;
+        margin: 0 1px 0 1px;
+        transition: 0.4s;
+        border-radius:4px;
+    }
+
+    .MUL p {
+        display: block;
+        width: 100%;
+        height: 2px;
+        clear: both;
+        padding: 0;
+        margin: 0;
+        transition: 0.4s;
+    }
+
+    .CR_OVER_TAB_MAIN{
+        border-radius:21px;
+        /*overflow:hidden;*/
+    }
+
+/* ABOUT*/
+
+
+/* POLICY */
